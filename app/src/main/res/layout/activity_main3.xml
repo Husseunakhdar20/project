@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etID"
+        android:hint=" Patient ID"
+        android:textSize="10pt"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etName"
+        android:hint="Patient Name"
+        android:textSize="10pt"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etAge"
+        android:hint="Age"
+        android:textSize="10pt"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etDisease"
+        android:hint="The Disease"
+        android:textSize="10pt"
+        android:textColorHint="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:id="@+id/bEnter"
+        android:textColor="@color/white"
+        android:hint="Enter the Patient"
+        android:textColorHint="@color/white"
+        android:textSize="10pt"
+        android:backgroundTint="#D10FCBE6"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bDelete"
+        android:textColor="@color/white"
+        android:hint="Delete "
+        android:textColorHint="@color/white"
+         android:backgroundTint="#D10FCBE6"
+        android:textSize="10pt"  />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bSelectAll"
+        android:textColor="@color/white"
+        android:hint="Show All "
+        android:textColorHint="@color/white"
+        android:textSize="10pt"
+        android:backgroundTint="#D10FCBE6" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bSelectId"
+        android:textColor="@color/white"
+        android:hint="Select Id "
+        android:textColorHint="@color/white"
+        android:textSize="10pt"
+         android:backgroundTint="#D10FCBE6" />
+
+    <Button
+        android:id="@+id/bEdit"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#D10FCBE6"
+        android:hint="Edit"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="10pt" />
+
+
+
+</LinearLayout>
